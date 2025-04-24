@@ -260,6 +260,9 @@ button {
   align-items: center;
   justify-content: center;
 }
+.team .item-icons:hover {
+  background-color: #404bbf;
+}
 
 .portfolio-li:last-child {
   margin-right: 0;
@@ -432,4 +435,8 @@ button {
 }
 .footer-container {
   display: flex;
+}
+
+.icons-list-footer .item-icons:hover {
+  background-color: #31d0aa;
 }
