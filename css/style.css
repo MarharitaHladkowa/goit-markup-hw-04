@@ -139,10 +139,11 @@ body {
     url('../images/people-office.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .hero-container {
-  max-width: 1440px;
-  background-repeat: no-repeat;
 }
 .style-icon {
   height: 112px;
@@ -255,6 +256,7 @@ button {
   display: flex;
   text-align: center;
   gap: 24px;
+  justify-content: center;
 }
 .item-icons {
   width: 40px;
@@ -268,14 +270,17 @@ button {
 .team .item-icons:hover {
   background-color: #404bbf;
 }
-
+.item-icons-a {
+}
 .portfolio-li:last-child {
   margin-right: 0;
 }
 .team-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
+
 .team {
   padding: 120px 0 120px;
 }
@@ -303,10 +308,7 @@ button {
   color: #434455;
 }
 .team-info {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 32px 0 32px;
 }
 .team {
   background: #f4f4fd;
