@@ -245,9 +245,6 @@ button {
   gap: 24px;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.icons-list svg {
-  fill: white;
-}
 
 .icons-list {
   height: 40px;
@@ -442,9 +439,7 @@ button {
   text-align: center;
   gap: 16px;
 }
-.icons-list-footer svg {
-  fill: white;
-}
+
 .footer-container {
   display: flex;
   align-items: baseline;
