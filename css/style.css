@@ -143,8 +143,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
-.hero-container {
-}
+
 .style-icon {
   height: 112px;
   display: flex;
@@ -258,7 +257,11 @@ button {
   gap: 24px;
   justify-content: center;
 }
-.item-icons {
+
+.team .item-icons:hover {
+  background-color: #404bbf;
+}
+.item-icons-a {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -266,11 +269,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.team .item-icons:hover {
-  background-color: #404bbf;
-}
-.item-icons-a {
 }
 .portfolio-li:last-child {
   margin-right: 0;
@@ -444,6 +442,6 @@ button {
   display: flex;
 }
 
-.icons-list-footer .item-icons:hover {
+.icons-list-footer .item-icons-a:hover {
   background-color: #31d0aa;
 }
