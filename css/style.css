@@ -258,7 +258,7 @@ button {
   justify-content: center;
 }
 
-.team .item-icons:hover {
+.team .item-icons-a:hover {
   background-color: #404bbf;
 }
 .item-icons-a {
