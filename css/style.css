@@ -431,10 +431,10 @@ button {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-div {
-  padding-right: 120px;
+  margin-right: 120px;
 }
 .icons-list-footer {
   height: 40px;
@@ -447,8 +447,15 @@ button {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .icons-list-footer .item-icons-a:hover {
   background-color: #31d0aa;
+}
+.icons-list-footer .item-icons-a:focus {
+  background-color: #31d0aa;
+}
+.footer-svg {
+  fill: #f4f4fd;
 }
