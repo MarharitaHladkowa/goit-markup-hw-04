@@ -261,7 +261,7 @@ button {
 .team .item-icons-a:hover {
   background-color: #404bbf;
 }
-.team .item-icons-a:vocus {
+.team .item-icons-a:focus {
   background-color: #404bbf;
 }
 .item-icons-svg {
