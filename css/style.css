@@ -487,16 +487,17 @@ button {
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%) scale(1);
 }
-.close {
-  fill: #2e2f42;
-}
 .button-close {
   position: absolute;
   top: 24px;
   right: 24px;
   width: 24px;
   height: 24px;
+  background-color: var(--cornflower);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  stroke: rgba(0, 0, 0, 0.1);
-  stroke-width: 1px;
+}
+
+.button-close .closse {
+  fill: #2e2f42;
 }
