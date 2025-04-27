@@ -479,11 +479,24 @@ button {
   transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop .is-open {
+.backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%) scale(1);
+}
+.close {
+  fill: #2e2f42;
+}
+.button-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  stroke: rgba(0, 0, 0, 0.1);
+  stroke-width: 1px;
 }
