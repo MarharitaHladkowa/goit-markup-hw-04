@@ -539,14 +539,13 @@ button {
   border: none;
   color: #ffffff;
 }
-background-color: #404bbf;
 
 .label {
   font-weight: 400;
   font-size: 12px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8e8f99;
+  color: var(--light-slate);
   margin-bottom: 4px;
   display: block;
 }
@@ -670,4 +669,18 @@ textarea::placeholder {
   color: #4d5ae5; /* Синий цвет */
   text-decoration: underline; /* Подчёркивание */
   text-decoration-skip-ink: none; /* Без пропусков подчеркивания */
+}
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
 }
