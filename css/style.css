@@ -705,7 +705,7 @@ textarea::placeholder {
 .buton-telega {
   border-radius: 4px;
   padding: 8px 24px;
-  min-width: 169px;
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
   font-weight: 500;
