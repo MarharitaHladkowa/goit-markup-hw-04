@@ -655,7 +655,7 @@ textarea::placeholder {
   border: none;
   fill: #ffffff;
 }
-.checkbox:checked + .label-check .check {
+.checkbox:checked + .label-check .check-empty {
   fill: var(--cloud);
 }
 .checkbox:focus + .label-check > .check-empty {
