@@ -610,6 +610,7 @@ textarea::placeholder {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  position: absolute;
 }
 .input-div:has(.input:hover) svg {
   fill: #4d5ae5;
