@@ -614,7 +614,7 @@ textarea::placeholder {
 .label-check {
   font-weight: 400;
   font-size: 12px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -636,23 +636,24 @@ textarea::placeholder {
   overflow: hidden;
   white-space: nowrap;
 }
-.label-check::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
+
+.checkbox:checked + .label-check > .check-empty {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+}
+.checkbox:focus + .label-check > .check-empty {
+  background-color: #404bbf;
+}
+.check-empty {
   width: 16px;
   height: 16px;
-  border: 1px solid var(--navy-blue-modal);
   border-radius: 2px;
-  background-color: #fff;
-  background-size: contain;
-}
-.checkbox:checked + .label-check::before {
-  background-color: var(--navy-blue-modal);
-  background-image: url('./images/icons.svg#icon-Vectorgalo4ka');
-  background-repeat: no-repeat;
-  background-position: center;
+  border: 1px solid #2e2f42;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 .buton-form {
